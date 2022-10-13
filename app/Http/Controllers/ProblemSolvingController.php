@@ -73,7 +73,7 @@ class ProblemSolvingController extends Controller
 
         /*#Algorithem
                 1- get string length = n 
-                2- value of Char * 26 ^ n-1
+                2- The equation : value of Char * 26 ^ n-1
                 3- n--
             #end
         */
@@ -90,7 +90,6 @@ class ProblemSolvingController extends Controller
             'result' => $result,
         ]);
         // By List tryal ***
-
         /* 
             $char = array(
                 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
